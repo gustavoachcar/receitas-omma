@@ -1,0 +1,162 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin:0;
+}
+
+.logo{
+    background-color: #ffc107;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 117px;
+   
+}
+
+.logo img {
+    width: 324px;
+}
+
+.menu {
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 58px;
+    height: 48px;
+    background-color: #FFA000;
+}
+
+.menu a {
+    color: #FDFDFD;
+    font-size: 20px;
+    font-weight:700;
+    text-decoration: none;
+    
+}
+
+main{
+    display:flex;
+    padding: 107px 120px;
+}
+
+footer{
+    background-color: #ffc107;
+    display: flex;
+    align-items: center;
+    height: 119px;
+    color: #fff;
+}
+
+#receitas h1{
+    color:#FFA000;
+    font-weight: 700;
+    font-size: 50px;
+    margin: 0;
+}
+
+.image-receita{
+    margin-top: 28px;
+}
+
+.tag1{
+    width: 95px;
+    height: 31px;
+    border: 1px solid #176902;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 47px;
+    color: #176902;
+    margin-top: 25px;
+    line-height: 22px;    
+}
+
+.tag2{
+    width: 196px;
+    height: 31px;
+    border: 1px solid #176902;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 19px;
+    border-radius: 47px;
+    color: #176902;
+    margin-top: 25px;
+}
+
+h3{
+    margin:0;
+    margin-top: 58px;
+    margin-left: 8px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.ingredientes-lista {
+    margin:0;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 8px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+h4{
+    margin:0;
+    margin-top: 60px;
+    margin-left: 8px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+iframe{
+    margin-top: 37px;
+}
+
+h5{
+    margin: 0;
+    margin-left: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 80px;
+}
+p{
+    box-sizing: border-box;
+    width: 592px;
+    height: 500px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 25px;  
+    margin-left: 8px; 
+}
+
+h2{
+    margin:0;
+    margin-top: 61px;
+    color: #FFA000;
+    font-weight: 500;
+    font-size: 30px;
+}
+#relacionados {
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    margin-left: 192px;
+    gap: 27px;
+}
+
+
+.receitas-card{
+    width: 345px;
+    box-shadow: 0px 2px 2px 0px grey;
+    text-align: center;
+    font-weight: 600;
+    font-size: 26px;
+  }
+
+  
+.receitas-card div {
+    padding: 15px 0;
+    font-weight: bold;
+    
+}
